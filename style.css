@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+h1{
+   font-size: 50px;
+   color: darkred
+}
+
+h2{
+    font-size: 25px;
+    color: darkslateblue;
+}
+
+p{
+    font-size: 25px;
+    color: brown;
+}
+img{
+    width: 70%;
+    height: 70%;
+    margin: 20px;
+    border: 5px solid darkred
+}
+
+.Container{
+    width: 90;
+    height: 90%;
+    margin: 10px;
+    border: 5px solid darkred;
+    background-color: gainsboro;
+}
+
+.Ultrametal{
+    padding: 20px;
+    color: darkmagenta;
+}
+
+.BlackMetal{
+    padding: 20px;
+}
+table{
+    color: darkgoldenrod;
+}
+.contactos{
+    max-width: 500px;
+    margin: 0% auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(red, green, blue);
+}
+input, textarea, select{
+    width: 10%;
+    padding: 10px;
+    margin-bottom:  15px;
+    border: 1px solid darkred;
+    border-radius: 4px;
+}
+input[type="submit"]:hover{
+    background-color: cadetblue;
+}
+input[type="reset"]:hover{
+    background-color: cadetblue;
+}
+a{
+    color: darkred;
+}
